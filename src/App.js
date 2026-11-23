@@ -1,4 +1,5 @@
 import "./App.css";
+import Dictionary from "./Dictionary";
 
 export default function App() {
   return (
@@ -6,6 +7,9 @@ export default function App() {
       <header className="App-header">
         <h1>Welcome to my dictionary</h1>
       </header>
+      <main>
+        <Dictionary />
+      </main>
       <footer className="App-footer">
         This project was coded by{" "}
         <a
@@ -25,7 +29,7 @@ export default function App() {
         </a>{" "}
         and{" "}
         <a
-          href="https://dictionary-project-l6gf.onrender.com/"
+          href="https://react-add-on-homework1.onrender.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
